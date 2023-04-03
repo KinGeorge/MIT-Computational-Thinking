@@ -9,3 +9,12 @@ check the version:
 ```shell
 julia -v
 ```
+```shell
+julia> ]
+(@v1.8) pkg> add Pluto
+```
+start Pluto
+```shell
+julia> using Pluto
+julia> Pluto.run()
+```
